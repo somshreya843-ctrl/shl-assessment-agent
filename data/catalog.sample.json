@@ -1,0 +1,40 @@
+{
+  "legend": {
+    "A": "Ability & Aptitude",
+    "B": "Biodata & Situational Judgement",
+    "C": "Competencies",
+    "D": "Development & 360",
+    "E": "Assessment Exercises",
+    "K": "Knowledge & Skills",
+    "P": "Personality & Behavior",
+    "S": "Simulations"
+  },
+  "_NOTE": "PLACEHOLDER DATA FOR LOCAL DEVELOPMENT ONLY. Run scripts/scrape_catalog.py against the live SHL catalog and overwrite this file before deploying/submitting -- the hard-eval check requires every recommended URL to come from the real scrape.",
+  "items": [
+    {"name": "Java 8 (New)", "url": "https://www.shl.com/products/product-catalog/view/java-8-new/", "test_type": ["K"], "description": "Measures knowledge of core Java 8 syntax, OOP concepts, collections, and language features for developer roles.", "duration_minutes": "20"},
+    {"name": "Core Java (Entry Level)", "url": "https://www.shl.com/products/product-catalog/view/core-java-entry-level/", "test_type": ["K"], "description": "Entry-level Java knowledge assessment covering syntax, control structures, and basic OOP.", "duration_minutes": "15"},
+    {"name": "Java Design Patterns", "url": "https://www.shl.com/products/product-catalog/view/java-design-patterns/", "test_type": ["K"], "description": "Assesses understanding of common design patterns applied in Java applications.", "duration_minutes": "20"},
+    {"name": "Selenium", "url": "https://www.shl.com/products/product-catalog/view/selenium/", "test_type": ["K"], "description": "Measures knowledge of Selenium for automated web testing.", "duration_minutes": "20"},
+    {"name": "SQL Server", "url": "https://www.shl.com/products/product-catalog/view/sql-server/", "test_type": ["K"], "description": "Assesses SQL querying and SQL Server database knowledge.", "duration_minutes": "20"},
+    {"name": "Python (New)", "url": "https://www.shl.com/products/product-catalog/view/python-new/", "test_type": ["K"], "description": "Measures Python programming knowledge including syntax, data structures, and OOP.", "duration_minutes": "20"},
+    {"name": "JavaScript (New)", "url": "https://www.shl.com/products/product-catalog/view/javascript-new/", "test_type": ["K"], "description": "Assesses core JavaScript language knowledge for front-end and full-stack roles.", "duration_minutes": "20"},
+    {"name": "OPQ32r", "url": "https://www.shl.com/products/product-catalog/view/opq32r/", "test_type": ["P"], "description": "Occupational Personality Questionnaire measuring 32 workplace personality dimensions relevant to performance and style.", "duration_minutes": "25"},
+    {"name": "Motivation Questionnaire (MQ)", "url": "https://www.shl.com/products/product-catalog/view/motivation-questionnaire/", "test_type": ["P"], "description": "Measures the conditions and incentives that drive an individual's motivation at work.", "duration_minutes": "20"},
+    {"name": "General Ability Test (GAT)", "url": "https://www.shl.com/products/product-catalog/view/general-ability-test/", "test_type": ["A"], "description": "Short measure of general cognitive ability combining numerical, verbal, and inductive reasoning.", "duration_minutes": "24"},
+    {"name": "Verify General Ability (GA)", "url": "https://www.shl.com/products/product-catalog/view/verify-general-ability/", "test_type": ["A"], "description": "Adaptive test of general cognitive ability used broadly across roles and levels.", "duration_minutes": "20"},
+    {"name": "Verify Numerical Reasoning", "url": "https://www.shl.com/products/product-catalog/view/verify-numerical-reasoning/", "test_type": ["A"], "description": "Adaptive measure of numerical reasoning ability.", "duration_minutes": "18"},
+    {"name": "Verify Verbal Reasoning", "url": "https://www.shl.com/products/product-catalog/view/verify-verbal-reasoning/", "test_type": ["A"], "description": "Adaptive measure of verbal comprehension and reasoning ability.", "duration_minutes": "17"},
+    {"name": "Verify Inductive Reasoning", "url": "https://www.shl.com/products/product-catalog/view/verify-inductive-reasoning/", "test_type": ["A"], "description": "Adaptive measure of inductive/logical reasoning ability.", "duration_minutes": "16"},
+    {"name": "Global Skills Assessment (GSA)", "url": "https://www.shl.com/products/product-catalog/view/global-skills-assessment/", "test_type": ["A", "K"], "description": "A broad screening assessment combining cognitive ability and foundational workplace skills, often used for early-stage screening across many roles.", "duration_minutes": "36"},
+    {"name": "Situational Judgement Test (SJT) - Supervisory", "url": "https://www.shl.com/products/product-catalog/view/sjt-supervisory/", "test_type": ["B"], "description": "Presents realistic supervisory scenarios to assess judgment and decision-making style.", "duration_minutes": "20"},
+    {"name": "Coding Pro - Data Structures & Algorithms", "url": "https://www.shl.com/products/product-catalog/view/coding-pro-dsa/", "test_type": ["S", "K"], "description": "Live coding simulation assessing data structure and algorithm problem solving in a real IDE.", "duration_minutes": "45"},
+    {"name": "Technology Professional 8.0 Job Focused Assessment", "url": "https://www.shl.com/products/product-catalog/view/technology-professional-8/", "test_type": ["A", "P", "C"], "description": "Combines ability, personality, and competency measures tailored to technology professional roles.", "duration_minutes": "40"},
+    {"name": "Customer Service 8.0 Job Focused Assessment", "url": "https://www.shl.com/products/product-catalog/view/customer-service-8/", "test_type": ["A", "P", "C"], "description": "Combined assessment for customer service roles measuring relevant ability, personality, and competencies.", "duration_minutes": "35"},
+    {"name": "Workplace Personality Inventory (WPI)", "url": "https://www.shl.com/products/product-catalog/view/workplace-personality-inventory/", "test_type": ["P"], "description": "Measures personality traits predictive of workplace behavior and fit.", "duration_minutes": "25"},
+    {"name": "Sales Aptitude Assessment", "url": "https://www.shl.com/products/product-catalog/view/sales-aptitude-assessment/", "test_type": ["A", "C"], "description": "Assesses aptitude and competencies relevant to sales performance.", "duration_minutes": "30"},
+    {"name": "C# (New)", "url": "https://www.shl.com/products/product-catalog/view/csharp-new/", "test_type": ["K"], "description": "Measures C# programming language knowledge.", "duration_minutes": "20"},
+    {"name": "Agile Software Development", "url": "https://www.shl.com/products/product-catalog/view/agile-software-development/", "test_type": ["K"], "description": "Assesses knowledge of Agile methodologies and practices used in software development.", "duration_minutes": "15"},
+    {"name": "Project Management Knowledge", "url": "https://www.shl.com/products/product-catalog/view/project-management-knowledge/", "test_type": ["K"], "description": "Measures core project management concepts and terminology.", "duration_minutes": "20"},
+    {"name": "Leadership Skills Assessment", "url": "https://www.shl.com/products/product-catalog/view/leadership-skills-assessment/", "test_type": ["C", "P"], "description": "Assesses leadership competencies and behavioral style for management roles.", "duration_minutes": "30"}
+  ]
+}
