@@ -248,7 +248,6 @@ POST /chat
 - Python
 - FastAPI
 - Pydantic
-- Anthropic Claude API
 - TF-IDF Retrieval
 - Docker
 
